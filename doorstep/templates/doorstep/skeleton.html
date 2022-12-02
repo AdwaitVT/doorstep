@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 		{% block head %}
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		{% csrf_token %}
 		{% block robots_meta %}
 		<meta name="robots" content="noodp,noydir" />
 		{% endblock %}

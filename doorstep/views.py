@@ -28,11 +28,16 @@ class BaseView(TemplateView):
         context['request'] = self.request
         context['style_name'] = self.style_name
         context['base_template_name'] = self.base_template_name
-        context['SITE_NAME'] = self.get_config('SITE_NAME')
-        context['SITE_TITLE'] = self.get_config('SITE_TITLE')
-        context['SITE_DESCRIPTION'] = self.get_config('SITE_DESCRIPTION')
-        context['COPYRIGHT'] = self.get_config('COPYRIGHT')
-        context['SUPPORT_EMAIL'] = self.get_config('SUPPORT_EMAIL')
+        # context['SITE_NAME'] = 'VTMarketPlace'
+        context['SITE_NAME'] = 'VTMarketPlace'
+        # context['SITE_TITLE'] = self.get_config('SITE_TITLE')
+        # context['SITE_DESCRIPTION'] = self.get_config('SITE_DESCRIPTION')
+        # context['COPYRIGHT'] = self.get_config('COPYRIGHT')
+        # context['SUPPORT_EMAIL'] = self.get_config('SUPPORT_EMAIL')
+        context['SITE_TITLE'] = 'VTMarketPlace'
+        context['SITE_DESCRIPTION'] = 'One stop marketplace destination for VT Students'
+        context['COPYRIGHT'] = 'VTMarketPlace'
+        context['SUPPORT_EMAIL'] = 'vtmarketplace@vt.edu'
 
         if hasattr(self, 'page_title'):
             context['page_title'] = self.page_title

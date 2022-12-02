@@ -9,7 +9,7 @@
         "created_by": "mysteryjeans",
         "published": "2014-09-16T15:15:12.163Z",
         "status": "PU",  
-        "content": "<p>\r\nWrite contact information in here, you can edit this in admin site.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>", 
+        "content": "<p>\r\nWelcome to VTMarketPlace.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nThe one stop destination for buying and selling used prodcuts fot VT Students. \r\n</p>", 
         "created_on": "2014-09-15T21:55:15.004Z", 
         "updated_on": "2014-09-16T15:15:12.163Z"
     }
@@ -190,8 +190,8 @@
     "model": "pages.link", 
     "fields": {
         "group": "Service", 
-        "name": "support@doorstep.com", 
-        "url": "mailto:support@doorstep.com", 
+        "name": "vtmarketplace@vt.edu", 
+        "url": "mailto:vtmarketplace@vt.edu", 
         "created_by": "mysteryjeans", 
         "created_on": "2014-09-15T23:26:17.976Z", 
         "updated_on": "2014-09-15T23:26:17.976Z", 
@@ -204,8 +204,8 @@
     "model": "pages.link", 
     "fields": {
         "group": "Service", 
-        "name": "P: (800) 111-4444 ", 
-        "url": "tel:++18001114444 ", 
+        "name": "P: (540) 111-4444 ", 
+        "url": "tel:++15401114444 ", 
         "created_by": "mysteryjeans", 
         "created_on": "2014-09-15T23:27:22.601Z", 
         "updated_on": "2014-09-16T15:20:51.517Z", 

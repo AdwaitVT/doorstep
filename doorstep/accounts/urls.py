@@ -4,6 +4,7 @@ from doorstep.accounts.views import LoginView, LogoutView, RegisterView, ForgotP
 
 urlpatterns = [
     url(r'^login/$', LoginView.as_view(), name='accounts_login'),
+    url(r'^redirect/$', LoginView.as_view(), name='accounts_redirect'),
     url(r'^logout/$', LogoutView.as_view(), name='accounts_logout'),
     url(r'^register/$', RegisterView.as_view(), name='accounts_register'),
     url(r'^forgot_password/$', ForgotPasswordView.as_view(), name='accounts_forgot_password'),

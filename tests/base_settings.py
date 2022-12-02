@@ -93,19 +93,19 @@ INSTALLED_APPS += (
 DOMAIN = '127.0.0.1:8000'
 
 # SITE_NAME it will be used in all pages, this is the name of your website
-SITE_NAME = 'Doorstep'
+SITE_NAME = 'VTMarketPlace'
 
 # SITE_TITLE for index pages of your website
-SITE_TITLE = 'The powerful e-commerce solution for Django'
+SITE_TITLE = 'VTMarketPlace'
 
 # Meta description for SEO
-SITE_DESCRIPTION = 'The e-commerce solution site build using Doorstep'
+SITE_DESCRIPTION = 'The e-commerce solution for VT Students'
 
 # COPYRIGHT statement for all pages
-COPYRIGHT = 'Copyright &copy; 2014 Doorstep. All rights reserved.'
+COPYRIGHT = 'Copyright &copy; 2022 VTMarketPlace. All rights reserved.'
 
 # SUPPORT_EMAIL address for bugs and error reporting
-SUPPORT_EMAIL = 'demo@doorstepdemo.com'
+SUPPORT_EMAIL = 'vtmarketplace@vt.edu'
 
 
 # Email Server settings for sending notifications & confirmations emails

@@ -13,6 +13,16 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 # Doorstep apps configuration required for Django
+# DOORSALE_APPS = (
+#     'doorstep',
+#     'doorstep.geo',
+#     'doorstep.pages',
+#     'doorstep.accounts',
+#     'doorstep.catalog',
+#     'doorstep.sales',
+#     'doorstep.financial',
+#     'doorstep.payments',
+# )
 DOORSALE_APPS = (
     'doorstep',
     'doorstep.geo',

@@ -20,7 +20,7 @@
 {% endblock %}
 <title>{{ page_title|default:SITE_TITLE }} | {{ SITE_NAME }}</title>
 <link rel="icon shortcut" href="{% static 'doorstep/img/icon.png' %}" type="image/png"/>
-
+{% csrf_token %}
 {% block styles %}
 <link href="{% static 'doorstep/css/material-icons.css' %}" rel="stylesheet">
 <link href="{% static 'doorstep/css/fontawesome-all.min.css' %}" rel="stylesheet">
@@ -34,7 +34,9 @@
 <header>
 	{% block header-content %}
 	<nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-start">
-		<a href="{% url 'catalog_index' %}" class="navbar-brand d-none d-lg-block">{{ SITE_NAME }}</a>
+		<a href="{% url 'catalog_index' %}" class="navbar-brand d-none d-lg-block">
+			<img src="{% static 'doorstep/img/VTName.png' %}" alt="logo" width="125" height="35">
+		</a>
 		<button type="button" id="sidebar-collapse-button" class="d-lg-none btn btn-info mr-2">
 				<i class="fas fa-align-left mr-1"></i>
 				<span>Menu</span>
@@ -51,7 +53,7 @@
 				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="user-dropdown-menu">
 					{% if user.is_staff %}
 						<a class="dropdown-item" href="/admin/">
-	 						<i class="fas fa-wrench text-lightgrey mr-3"></i>Admin
+	 						<i class="fas fa-wrench text-lightgrey mr-3"></i>Seller
 	 				 	</a>
 						{% endif %}
 					<a class="dropdown-item" href="{% url 'accounts_change_password' %}">
@@ -81,7 +83,7 @@
 			</div>
 
 			<div class="sidebar-header">
-				<a href=""{% url 'catalog_index' %}""><h3>{{ SITE_NAME }}</h3></a>
+				<a href="{% url 'catalog_index' %}"><h3>{{ SITE_NAME }}</h3></a>
 			</div>
 			<ul class="list-unstyled">
 				{% block side-nav-content %}
@@ -140,7 +142,7 @@
     </div>
 		{% get_pages_links %}
 		<div class="col-sm-12 text-muted small text-right">
-      Powered by <a href="https://github.com/mysteryjeans/doorstep"><span class="text-dark">Doorstep</span></a>
+      Powered by <a href="https://github.com/sushilk123/CS5934_VTMarketPlace"><span class="text-dark">VTMarketplace</span></a>
     </div>
   </div>
 	{% endcache %}

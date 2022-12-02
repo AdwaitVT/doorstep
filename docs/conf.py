@@ -48,9 +48,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Doorstep'
-copyright = u'2016, Faraz Masood Khan'
-author = u'Faraz Masood Khan'
+project = u'VTMarketPlace'
+copyright = u'2022, VTMarketPlace'
+author = u'VTMarketPlace'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -260,7 +260,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'Doorstep.tex', u'Doorstep Documentation',
-     u'Faraz Masood Khan', 'manual'),
+     u'VTMarketPlace', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -310,8 +310,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Doorstep', u'Doorstep Documentation',
-     author, 'Doorstep', 'One line description of project.',
+    (master_doc, 'VTMarketPlace', u'Doorstep Documentation',
+     author, 'VTMarketPlace', 'One line description of project.',
      'Miscellaneous'),
 ]
 

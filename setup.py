@@ -20,12 +20,12 @@ with open(os.path.join(SETUP_DIR, 'README.md')) as readme:
     README = readme.read()
 
 
-setup(name='Doorstep',
+setup(name='VTMarketPlace',
       version=version,
       url='https://github.com/mysteryjeans/doorstep',
-      author='Faraz Masood Khan',
-      author_email='faraz@fanaticlab.com',
-      description='The powerful e-commerce solution for Django.',
+      author='VTMarketPlace',
+      author_email='xyz@vt.edu',
+      description='One stop destination for VT Student Marketplace',
       long_description=README,
       license='GPLv2',
       packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
